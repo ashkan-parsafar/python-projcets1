@@ -1,12 +1,12 @@
+import random
 d = {
     "front":0,
     "back":0
 }
-front=0
-back=0
-a=int(input("enter number"))
-import random
-for u in range(a):
+front = 0
+back = 0
+chanseNumber=int(input("enter number"))
+for u in range(chanseNumber):
     for i in range(17):
         d[random.choice(list(d.keys()))] += 1
     if d["back"]>d["front"]:
