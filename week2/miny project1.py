@@ -1,5 +1,5 @@
 def Sum(lstNumbers):
-    result = 1
+    result = 0
     for i in lstNumbers:
         result += int(i)
     return result
